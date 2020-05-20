@@ -2,10 +2,6 @@ import React, { useState } from "react";
 
 let timeout;
 
-// move bootstrap
-// supprimer fichiers inutiles
-// mettre en ligne
-
 const onInitialTimeChange = (initialTime, setInitialTime, setTime, time) => () => {
   const tmpTime = initialTime + time;
   const newTime = tmpTime > 0 ? tmpTime : 0;
